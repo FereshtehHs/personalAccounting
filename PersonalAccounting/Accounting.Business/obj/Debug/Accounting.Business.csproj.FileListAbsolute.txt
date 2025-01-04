@@ -1,0 +1,6 @@
+D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\Accounting.Business\bin\Debug\Accounting.Business.dll
+D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\Accounting.Business\bin\Debug\Accounting.Business.pdb
+D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\Accounting.Business\obj\Debug\Accounting.Business.csproj.AssemblyReference.cache
+D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\Accounting.Business\obj\Debug\Accounting.Business.csproj.CoreCompileInputs.cache
+D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\Accounting.Business\obj\Debug\Accounting.Business.dll
+D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\Accounting.Business\obj\Debug\Accounting.Business.pdb
