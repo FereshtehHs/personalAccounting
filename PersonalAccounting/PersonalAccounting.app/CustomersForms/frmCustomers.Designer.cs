@@ -79,6 +79,7 @@
             this.btnEditCustomer.Size = new System.Drawing.Size(72, 59);
             this.btnEditCustomer.Text = "ویرایش افراد";
             this.btnEditCustomer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnEditCustomer.Click += new System.EventHandler(this.btnEditCustomer_Click);
             // 
             // btnDeleteCustomer
             // 

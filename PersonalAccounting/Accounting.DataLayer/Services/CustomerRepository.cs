@@ -10,10 +10,10 @@ namespace Accounting.DataLayer.Services
 {
     public class CustomerRepository : ICustomerRepository
     {
-        PersonalAccounting_DBEntities db ;
+        PersonalAccounting_DBEntities db;
         public CustomerRepository(PersonalAccounting_DBEntities context)
         {
-            db=context;
+            db = context;
         }
 
         public bool DeleteCustomer(Customers customer)
@@ -29,7 +29,7 @@ namespace Accounting.DataLayer.Services
 
         public bool DeleteCustomerById(int customerId)
         {
-            
+
             try
             {
                 var customer = GetCustomerById(customerId);
@@ -42,7 +42,7 @@ namespace Accounting.DataLayer.Services
 
         public List<Customers> GetAllCustomers()
         {
-           return db.Customers.ToList();
+            return db.Customers.ToList();
         }
 
         public Customers GetCustomerById(int customerId)
@@ -52,7 +52,7 @@ namespace Accounting.DataLayer.Services
 
         public IEnumerable<Customers> GetCustomersByFilter(string parameter)
         {
-            return db.Customers.Where(c=>c.FulName.Contains(parameter)||c.Email.Contains(parameter)||c.Mobile.Contains(parameter)).ToList();
+            return db.Customers.Where(c => c.FulName.Contains(parameter) || c.Email.Contains(parameter) || c.Mobile.Contains(parameter)).ToList();
         }
 
         public bool InsertCustomer(Customers customer)
@@ -68,13 +68,20 @@ namespace Accounting.DataLayer.Services
 
         public bool UpdateCustomer(Customers customer)
         {
-            try
+            //  try
+            //{
+            var local = db.Set<Customers>()
+                         .Local
+                         .FirstOrDefault(f => f.CustomerID == customer.CustomerID);
+            if (local != null)
             {
-                db.Entry(customer).State=EntityState.Modified;
-                return true;
+                db.Entry(local).State = EntityState.Detached;
             }
-            catch 
-            { return false; }
+            db.Entry(customer).State = EntityState.Modified;
+            return true;
+            //}
+            //catch 
+            // { return false; }
         }
     }
 }

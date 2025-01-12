@@ -80,5 +80,19 @@ namespace PersonalAccounting.app
                 BindGrid();
             }
         }
+
+        private void btnEditCustomer_Click(object sender, EventArgs e)
+        {
+            if(dgvCustomers!= null)
+            {
+                int customerId= Convert.ToInt32(dgvCustomers.CurrentRow.Cells[0].Value.ToString());
+                frmAddorEditCustomer frmAddorEdit=new frmAddorEditCustomer();
+                frmAddorEdit.customerId= customerId;
+                if(frmAddorEdit.ShowDialog()==DialogResult.OK)
+                {
+                    BindGrid();
+                }
+            }
+        }
     }
 }
