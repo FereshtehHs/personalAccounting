@@ -1,8 +1,10 @@
 D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\Accounting.DataLayer\bin\Debug\Accounting.DataLayer.dll.config
 D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\Accounting.DataLayer\bin\Debug\Accounting.DataLayer.dll
 D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\Accounting.DataLayer\bin\Debug\Accounting.DataLayer.pdb
+D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\Accounting.DataLayer\bin\Debug\Accounting.ViewModel.dll
 D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\Accounting.DataLayer\bin\Debug\EntityFramework.dll
 D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\Accounting.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\Accounting.DataLayer\bin\Debug\Accounting.ViewModel.pdb
 D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\Accounting.DataLayer\bin\Debug\EntityFramework.xml
 D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\Accounting.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
 D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.csproj.AssemblyReference.cache

@@ -32,6 +32,7 @@
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.btnCustomers = new System.Windows.Forms.ToolStripButton();
+            this.btnNewTracking = new System.Windows.Forms.ToolStripButton();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.toolStrip1.SuspendLayout();
             this.toolStrip2.SuspendLayout();
@@ -50,7 +51,8 @@
             // toolStrip2
             // 
             this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btnCustomers});
+            this.btnCustomers,
+            this.btnNewTracking});
             this.toolStrip2.Location = new System.Drawing.Point(0, 25);
             this.toolStrip2.Name = "toolStrip2";
             this.toolStrip2.Size = new System.Drawing.Size(784, 62);
@@ -67,6 +69,17 @@
             this.btnCustomers.Text = "طرف حساب";
             this.btnCustomers.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnCustomers.Click += new System.EventHandler(this.btnCustomers_Click);
+            // 
+            // btnNewTracking
+            // 
+            this.btnNewTracking.Image = global::PersonalAccounting.app.Properties.Resources._1370791030_credit_card;
+            this.btnNewTracking.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.btnNewTracking.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnNewTracking.Name = "btnNewTracking";
+            this.btnNewTracking.Size = new System.Drawing.Size(72, 59);
+            this.btnNewTracking.Text = "تراکنش جدید";
+            this.btnNewTracking.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnNewTracking.Click += new System.EventHandler(this.btnNewTracking_Click);
             // 
             // toolStripDropDownButton1
             // 
@@ -106,6 +119,7 @@
         private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
         private System.Windows.Forms.ToolStrip toolStrip2;
         private System.Windows.Forms.ToolStripButton btnCustomers;
+        private System.Windows.Forms.ToolStripButton btnNewTracking;
     }
 }
 

@@ -62,17 +62,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomersForms\frmCustomers.cs">
+    <Compile Include="Forms\frmCustomers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CustomersForms\frmCustomers.Designer.cs">
+    <Compile Include="Forms\frmCustomers.Designer.cs">
       <DependentUpon>frmCustomers.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomersForms\frmAddorEditCustomer.cs">
+    <Compile Include="Forms\frmAddorEditCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CustomersForms\frmAddorEditCustomer.Designer.cs">
+    <Compile Include="Forms\frmAddorEditCustomer.Designer.cs">
       <DependentUpon>frmAddorEditCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmNewTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmNewTransaction.Designer.cs">
+      <DependentUpon>frmNewTransaction.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -106,14 +112,17 @@
     <Compile Include="WinValidator\Validator\RequiredFieldValidator.designer.cs">
       <DependentUpon>RequiredFieldValidator.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="CustomersForms\frmAddorEditCustomer.resx">
+    <EmbeddedResource Include="Forms\frmAddorEditCustomer.resx">
       <DependentUpon>frmAddorEditCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomersForms\frmCustomers.resx">
+    <EmbeddedResource Include="Forms\frmCustomers.resx">
       <DependentUpon>frmCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmNewTransaction.resx">
+      <DependentUpon>frmNewTransaction.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -197,6 +206,10 @@
     <ProjectReference Include="..\Accounting.DataLayer\Accounting.DataLayer.csproj">
       <Project>{0a6868d6-3eea-4528-aa9e-d5e90b34025f}</Project>
       <Name>Accounting.DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Accounting.ViewModel\Accounting.ViewModel.csproj">
+      <Project>{ac7d5eb9-37e8-49a5-9579-1fed15eb12a2}</Project>
+      <Name>Accounting.ViewModel</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

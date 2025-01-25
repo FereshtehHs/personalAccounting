@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Accounting.DataLayer.Context;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,6 +27,13 @@ namespace PersonalAccounting.app
         {
             frmCustomers frmCustomers=new frmCustomers();
             frmCustomers.ShowDialog();
+        }
+
+        private void btnNewTracking_Click(object sender, EventArgs e)
+        {
+            frmNewTransaction frmNewTransaction =new frmNewTransaction();
+            frmNewTransaction.ShowDialog();
+
         }
     }
 }
