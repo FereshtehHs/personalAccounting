@@ -17,7 +17,7 @@ namespace Accounting.DataLayer.Services
             _db = db;
             _dbSet = _db.Set<TEntity>();
         }
-
+        public DbSet<Accounting> Accountings { get; set; }
         public virtual IEnumerable<TEntity> Get(Expression<Func<TEntity,bool>> where=null)
         {
             IQueryable<TEntity> query = _dbSet;

@@ -22,3 +22,4 @@ D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccount
 D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\PersonalAccounting.app\obj\Debug\PersonalAccounting.app.csproj.CopyComplete
 D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\PersonalAccounting.app\obj\Debug\PersonalAccounting.app.exe
 D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\PersonalAccounting.app\obj\Debug\PersonalAccounting.app.pdb
+D:\Learning Developing\One hundred Excersize\Personal Accounting\PersonalAccounting\PersonalAccounting.app\obj\Debug\PersonalAccounting.app.frmReport.resources

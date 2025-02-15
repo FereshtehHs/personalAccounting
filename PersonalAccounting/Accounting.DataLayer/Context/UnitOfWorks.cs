@@ -37,7 +37,7 @@ namespace Accounting.DataLayer.Context
                 return _accountingRepository;
             }
         }
-
+ 
         public void save()
         {
             db.SaveChanges();
